@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Campus</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="index.html" aria-label="Conecta Campus - página inicial">Conecta Campus</a>
+            <nav aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a aria-current="page" href="./index.html">Início</a></li>
+                    <li><a href="./locais.html">Locais</a></li>
+                    <li><a href="./detalhes.html">Detalhes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="detalhe container">
+            <a class="link-voltar" href="locais.html">← Voltar para locais</a>
+
+            <header class="detalhe-cabecalho">
+                <div>
+                    <p class="etiqueta">Tecnologia</p>
+                    <h1>Laboratório de Informática</h1>
+                    <p>Bloco C, sala 204 · segunda a sexta, das 12h às 20h</p>
+                </div>
+                <img src="./img/img-laboratorio.png" alt="Interior do laboratório de inforamática, com mesas, computadores e um telão " />
+            </header>
+
+            <section class="painel" aria-labelledby="titulo-recursos">
+                <h2 id="titulo-recursos">Recursos disponíveis</h2>
+                <ul class="lista-recursos">
+                    <li>Mesas coletivas</li>
+                    <li>Computadores para desenvolvimento de trabalhos e atividades</li>
+                    <li>Telão de apresentação</li>
+                </ul>
+            </section>
+
+            <section class="painel" aria-labelledby="titulo-acessibilidade">
+                <h2 id="titulo-acessibilidade">Recursos de acessibilidade</h2>
+                <ul class="lista-acessibilidade">
+                    <li>Rampa na entrada do bloco</li>
+                    <li>Mesas e computador numerados com escrita e braille</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Contato</legend>
+
+                    <label for="">email:</label>
+                    <input type="email" name="email" placeholder="Digite seu email" />
+
+                    <label for="">comentário:</label>
+                    <textarea name="comentario" placeholder="Digite seu comentário"></textarea>
+
+                    <input type="submit" name="enviar" value="Enviar" />
+                </fieldset>
+            </form>
+        </div>
+        <p>&copy; 2026 - Todos os direitos reservados - Conecta Campus</p>
+    </footer>
+</body>
+
+</html>
