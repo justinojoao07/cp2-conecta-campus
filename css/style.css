@@ -1,0 +1,120 @@
+/*
+INTEGRANTES:
+-RM 574718 | Cauã Gomes Veiga Sena 
+-RM 576536 | Enzo de Carvalho Pescuma 
+-RM 574645 | João Victor Justino
+-RM 575094 | Matheus Lira
+-RM 575352 | Matheus Setra da Silva
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #222222;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #1a3a6b;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #0b4fa8;
+}
+
+a:hover {
+  background-color: #e3ecf9;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 3px solid #d97706;
+  outline-offset: 2px;
+}
+
+header:has(nav),
+footer:not(:has(h2)):not(:has(img)) {
+  background-color: #1a3a6b;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+footer:not(:has(h2)):not(:has(img)) {
+  text-align: center;
+}
+
+#cabecalho-principal {
+  border-bottom: 4px solid #d97706;
+}
+
+header:has(nav) a {
+  color: #ffffff;
+}
+
+header:has(nav) a:hover {
+  background-color: #0f2548;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.card,
+.integrante {
+  background-color: #ffffff;
+  border: 1px solid #c9d3e0;
+  border-radius: 8px;
+  padding: 1.25em;
+  margin-bottom: 1.5rem;
+}
+
+.card img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.integrante {
+  text-align: center;
+}
+
+.integrante img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
